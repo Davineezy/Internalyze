@@ -1,0 +1,51 @@
+{
+    "name": "Internalyze",
+    "short_name": "Internalyze",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#FFE9D2",
+    "theme_color": "#FFE1C4",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "/images/favicon.png",
+        "type": "image/png",
+        "sizes": "32x32"
+      },
+      {
+        "src": "/images/logo_long-p-130x130q80.png",
+        "type": "image/png",
+        "sizes": "130x65"
+      },
+      {
+        "src": "/images/logo_long-p-500.png",
+        "type": "image/png",
+        "sizes": "500x250"
+      },
+      {
+        "src": "/images/logo_long-p-800.png",
+        "type": "image/png",
+        "sizes": "800x400"
+      },
+      {
+        "src": "/images/logo_long-p-1080.png",
+        "type": "image/png",
+        "sizes": "1080x540"
+      },
+      {
+        "src": "/images/logo_long.png",
+        "type": "image/png",
+        "sizes": "2048x1024"
+      },
+      {
+        "src": "/images/logo_long-p-1600.png",
+        "type": "image/png",
+        "sizes": "1600x800"
+      },
+      {
+        "src": "/images/logo_long-p-2000.png",
+        "type": "image/png",
+        "sizes": "2000x1000"
+      }
+    ]
+  }
