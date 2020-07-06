@@ -48,7 +48,7 @@
   </div>
   <div class="section-11">
     <h1 class="heading-10">OUR SITE IS CURRENTLY UNDER CONSTRUCTION</h1><img src="images/noun_constructions_PaidWhite.png" width="155" srcset="images/noun_constructions_PaidWhite-p-500.png 500w, images/noun_constructions_PaidWhite.png 512w" sizes="(max-width: 479px) 120px, 155px" alt="" class="hammer">
-    <h1 class="heading-10">WE&#x27;RE WORKING HARD TO PROVIDE <br>YOU WITH THE BEST SALES AND EMOTIONAL INTELLIGENCE EDUCATION EXPERIENCE</h1><a href="#connect" class="button w-button">Let&#x27;s Stay Connected</a>
+    <h1 class="heading-10">WE&#x27;RE WORKING HARD TO PROVID <br>YOU WITH THE BEST SALES AND EMOTIONAL INTELLIGENCE EDUCATION EXPERIENCE</h1><a href="#connect" class="button w-button">Let&#x27;s Stay Connected</a>
     <div class="container-6 w-container"><a href="#what-we-do" class="w-inline-block"><img src="images/Arrow.png" width="90" height="90" alt="Arrow" class="image-8"></a></div>
   </div>
   <div class="w-container">
@@ -71,120 +71,16 @@
   <div class="section-10"></div>
   <div class="section-12"><a href="#connect" class="w-inline-block"><img src="images/Arrow_green.png" width="90" alt=""></a></div>
 
-  <script>
-  function validateForm() {
-    var x = document.forms["myForm"]["name"].value;
-    var y = document.forms["myForm"]["email"].value;
-    var z = document.forms["myForm"]["Current_Level_of_Education"].value;
-    var m = document.forms["myForm"]["Prepared_Entering_The_Job_Market"].value;
-    var n = document.forms["myForm"]["name"].value;
-    if (x == "") {
-      alert("Name must be filled out");
-      return false;
-    }
-    if (y == "") {
-      alert("email must be filled out");
-      return false;
-    }
-    
-    if(z.value == "Select Applicable Education Experience"){
-      alert("Please select value"); 
-      return false;
-    }
-    if(m.value == "Based on your current education"){
-      alert("Please select value"); 
-      return false;
-    }
-
-  }
-  </script>
-
-
-
-  <div id="connect" class="container-contact100">
-		<div class="wrap-contact100">
-			<form class="contact100-form validate-form" name="myForm" action="connection.php" onsubmit="return validateForm()" method="post">
-				<span class="contact100-form-title">
-					<h3 style="text-align:left;">Let's Stay Connected</h3>
-          <h5 style="text-align:left;">Internalyze Doesn't Succeed Unless Our Students Do</h5>
-				</span>
-				<div class="wrap-input100 validate-input" >
-					<span class="label-input100">Your Name</span>
-					<input class="input100" type="text" id="name" name="name" placeholder="Enter your name"  >
-					<span class="focus-input100"></span>
-				</div>
-
-				<div class="wrap-input100 validate-input" >
-					<span class="label-input100">Email</span>
-					<input class="input100" type="text" id="email" name="email" placeholder="Enter your email addess" pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" >
-					<span class="focus-input100"></span>
-				</div>
-
-				<div class="wrap-input100 input100-select">
-				<span class="label-input100">Current Level of Education</span>
-					<div>
-						<select class="selection-2" id="Current_Level_of_Education" name="Current_Level_of_Education" required>
-							<option>Select Applicable Education Experience</option>
-							<option>High School Graduate or GED</option>
-							<option>Community College Graduate</option>
-							<option>Community College + Plan to Transfer</option>
-              <option>Trade School Graduate</option>
-              <option>Pursuing BA</option>
-              <option>Pursuing BS</option>
-              <option>BA Graduate</option>
-              <option>BS Graduate</option>
-              <option>Other</option>
-						</select>
-					</div>
-					<span class="focus-input100"></span>
-				</div>
-
-				<div class="wrap-input100 input100-select">
-					<span class="label-input100">Do You Feel Prepared Entering The Job Market?</span>
-					<div>
-						<select class="selection-2" id="Prepared_Entering_The_Job_Market" name="Prepared_Entering_The_Job_Market">
-							<option>Based on your current education</option>
-							<option>Not At All</option>
-							<option>Somewhat</option>
-              <option>I Think So</option>
-              <option>Absolutley</option>
-            </select>
-          </div>
-					<span class="focus-input100"></span>
-        </div>
-        
-        <div class="wrap-input100 input100-select">
-              <span class="label-input100">How Did You Hear About Us</span>
-              <div>
-            <select class="selection-2" id="aboutus" name="aboutus">
-							<option>How Did You Hear About Us</option>
-							<option>Instagram</option>
-							<option>Facebook</option>
-              <option>LinkedIn</option>
-              <option>Twitter</option>
-              <option>Others</option>
-						</select>
-					</div>
-					<span class="focus-input100"></span>
-				</div>
-
-				
-
-				<div class="container-contact100-form-btn">
-					<div class="wrap-contact100-form-btn">
-						<div class="contact100-form-bgbtn"></div>
-						<button class="contact100-form-btn">
-							<span>
-								Submit
-								<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
-							</span>
-						</button>
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
-  <div class="section-13">
+  <style>
+      .img-container {
+        text-align: center;
+        display: block;
+      }
+    </style>
+  <span class="img-container"> <!-- Inline parent element -->
+      <img src="images/thank.png" alt="">
+    </span>
+<div class="section-13">
     <div class="container-7 w-container"><a href="https://twitter.com/internalyze_" target="_blank" class="w-inline-block"><img src="images/png-twitter-logo-twitter-in-png-2500.png" width="70" srcset="images/png-twitter-logo-twitter-in-png-2500-p-500.png 500w, images/png-twitter-logo-twitter-in-png-2500-p-800.png 800w, images/png-twitter-logo-twitter-in-png-2500-p-1080.png 1080w, images/png-twitter-logo-twitter-in-png-2500-p-1600.png 1600w, images/png-twitter-logo-twitter-in-png-2500-p-2000.png 2000w, images/png-twitter-logo-twitter-in-png-2500.png 2500w" sizes="70px" alt="" class="image-12"></a><a href="https://www.facebook.com/Internalyze/" target="_blank" class="w-inline-block"><img src="images/facebook-icon-65x65.png" width="70" alt="" class="image-12"></a><a href="https://www.instagram.com/internalyze_/" target="_blank" class="w-inline-block"><img src="images/62372-computer-neon-instagram-icons-hd-image-free-png.png" width="65" srcset="images/62372-computer-neon-instagram-icons-hd-image-free-png-p-800.png 800w, images/62372-computer-neon-instagram-icons-hd-image-free-png-p-1080.png 1080w, images/62372-computer-neon-instagram-icons-hd-image-free-png-p-1600.png 1600w, images/62372-computer-neon-instagram-icons-hd-image-free-png-p-2000.png 2000w, images/62372-computer-neon-instagram-icons-hd-image-free-png.png 3091w" sizes="65px" alt="" class="image-13"></a></div>
   </div>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5ede91aa7bf48330cb951eae" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
